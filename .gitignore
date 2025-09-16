@@ -1,0 +1,54 @@
+# Python bytecode and build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Tests/coverage
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Linters/type checkers
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment secrets (protect API keys)
+.env
+.env.*
+!.env.example
+
+# Config secrets (local, not in VCS)
+config/settings.toml
+!config/settings.example.toml
+
+# Misc
+.python-version
+pip-wheel-metadata/

@@ -1,0 +1,10 @@
+[openai]
+api_key = ""
+instructions = ""
+reasoning_effort = ""
+
+[discord]
+token = ""
+
+[logging]
+level = "INFO"
